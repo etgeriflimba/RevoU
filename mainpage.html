@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="MainPage.css">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 class="text-navbar">REVOU</h1>
+        <h1 class="text-navbar">LOGOUT</h1>
+    </div>
+    <div class="conten-top">
+        <div class="conten-top-left">
+            <form class="form" action="../Index.html">
+                <div class="form-input">
+                    <label for="nama">Nama</label>
+                    <input type="text" name="nama" id="nama" required>
+                    <label for="jurusan">Jurusan</label>
+                    <input type="text" name="jurusan" id="jurusan" required>
+                    <label for="umur">umur</label>
+                    <input type="number" name="umur" id="umur" min="18" max="100" required>
+                </div>
+    </div>
+       
+
+            <div class="checkbox">
+                <input type="radio" id="gender-male" name="gender" required />
+                <label for="gender-male" aria-describedby="gender-male">Male</label>
+
+                <input type="radio" id="gender-female" name="gender" required />
+                <label for="gender-female">Female</label>
+            </div>
+
+            <div class="button-form">
+                <button aria-label="Tombol untuk melakukan tindakan submit form" type="submit">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
