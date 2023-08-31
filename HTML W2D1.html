@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="MainPage.css">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="W2D3.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 class="text-navbar">REVOU</h1>
+        <h1 class="text-navbar">LOGOUT</h1>
+    </div>
+    <div class="contenr-top">
+        <div>
+            <form class="form" action="../Index.html">
+                <div class="form-input">
+                    <label for="nama">Nama</label>
+                    <input type="text" name="nama" id="nama" required>
+                    <label for="jurusan">Jurusan</label>
+                    <input type="text" name="jurusan" id="jurusan" required>
+                    <label for="umur">umur</label>
+                    <input type="number" name="umur" id="umur" min="18" max="100" required>
+                </div>
+        </div>
+       
+
+            <div class="checkbox">
+                <input type="radio" id="gender-male" name="gender" required />
+                <label for="gender-male" aria-describedby="gender-male">Male</label>
+
+                <input type="radio" id="gender-female" name="gender" required />
+                <label for="gender-female">Female</label>
+            </div>
+
+            <div class="button-form">
+                <button aria-label="Tombol untuk melakukan tindakan submit form" type="submit">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+    <div>
+        <!-- Image -->
+        <h2>Image:</h2>
+        <img src="https://media1.tenor.com/images/a862d2cb92bfbe6213e298871b1e8a9a/tenor.gif?itemid=15805236"
+            alt="Cute Cat" width="150" height="150">
+
+        <!-- Audio -->
+        <h2>Audio:</h2>
+        <audio src="audio.mp3" controls autoplay>
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Video -->
+        <h2>Video:</h2>
+        <video src="video.mp4" width="300" height="400" controls>
+            Your browser does not support the video element.
+        </video>
+    </div>
+</body>
+
+</html>

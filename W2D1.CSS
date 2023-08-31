@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    background-color: rgb(192, 192, 254);
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+}
+
+.text-navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: red;
+}
+
+.main {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.checkbox {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#gender-female {
+    margin-left: 20px;
+}
+
+.button-form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
