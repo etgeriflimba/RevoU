@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif,sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo a {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+  }
+  
+  .nav-links li {
+    margin-right: 60px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .banner {
+    background-color: rgba(255, 166, 0, 0.826);
+    height: 450px;
+    text-align: center;
+    color:white
+  }
+
+  .banner img{
+    border-radius: 15px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+  }
+
+  .banner h1{
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  .banner p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .banner button{
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+    border:none
+  }
+
+  .banner button:hover{
+    background-color: rgba(255, 166, 0, 0.826) ;
+    border:2px solid white ;
+  }
+  
+h1 span:before{
+    content: "";
+    animation: gerak infinite 8s ease;
+    transform: translate(-50%);
+    color: white;
+    font-size: 60px;
+}
+@keyframes gerak{
+    0% {
+        content: "selamat datang" ;
+    }
+    50% {
+        content: "Kami dari Group 11" ;
+    }
+    100% {
+        content: "Tq udah lihat wkwk" ;
+    }
+   
+}
+
+.box-utama{
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    align-content: center;
+
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+width: 300px;
+height: 350px;
+background-color: rgba(255, 166, 0, 0.774);
+text-align: center;
+padding-top:20px;
+padding: 30px 30px;
+margin: 10px 2px 2px 35px;
+border-radius: 10px;
+float: left;
+}
+
+.box-terakhir{
+  width: 300px;
+height: 350px;
+background-color: rgba(255, 166, 0, 0.774);
+text-align: center;
+padding-top:20px;
+padding: 30px 30px;
+margin: 10px 2px 2px 35px;
+border-radius: 10px;
+float: left;
+}
+
+
+
+
+  
+  
+  
